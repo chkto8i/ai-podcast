@@ -121,7 +121,7 @@ def summarize(transcript: str, show_name: str, episode_title: str, config: dict)
     lang_instruction = "auf Deutsch" if lang == "de" else "in English"
 
     prompt = f"""Du bist Moderator eines wöchentlichen KI-Podcast-Digests.
-Fasse diese Podcast-Folge {lang_instruction} zusammen — knapp, prägnant, für unterwegs.
+Fasse diese Podcast-Folge {lang_instruction} zusammen — prägnant, für unterwegs,.
 
 Show: {show_name}
 Folge: {episode_title}
@@ -131,14 +131,16 @@ Transkript:
 
 Liefere NUR folgendes, ohne Überschriften oder Markdown:
 1. Einen Einleitungssatz (Show + Thema, max. 20 Wörter)
-2. Drei Key-Insights als Fließtext (je 1-2 Sätze, max. {max_len} Zeichen gesamt)
+2. Fünf bis sieben Key-Insights mit konkreten Zahlen, Daten und Fakten \
+   (je 6-8 Sätze, Beispiele nennen, Quellen aus dem Podcast zitieren, \
+   max. {max_len} Zeichen gesamt)
 3. Einen abschließenden Satz als Überleitung zur nächsten Show
 
 Schreibe natürlich gesprochen — es wird vorgelesen."""
 
     message = anthropic.messages.create(
         model="claude-haiku-4-5",
-        max_tokens=600,
+        max_tokens=3000,
         messages=[{"role": "user", "content": prompt}]
     )
     return message.content[0].text.strip()
