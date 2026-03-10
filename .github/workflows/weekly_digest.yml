@@ -1,4 +1,5 @@
 name: Weekly AI Podcast Digest
+# v2
 
 on:
   schedule:
