@@ -98,6 +98,18 @@ def trim_audio(audio_path: Path, max_seconds: int = 1500) -> Path:
     ], capture_output=True)
     return trimmed if trimmed.exists() else audio_path
 
+# ── Komprimierung auf 64kbps für größere Daten──────────────────────────────────────
+def compress_audio(audio_path: Path) -> Path:
+    compressed = audio_path.parent / f"compressed_{audio_path.name}"
+    subprocess.run([
+        "ffmpeg", "-y", "-i", str(audio_path),
+        "-acodec", "libmp3lame",
+        "-b:a", "64k",          # 64kbps — reicht für Sprache, ~12MB/25Min
+        "-ar", "22050",          # Samplerate reduzieren
+        str(compressed)
+    ], capture_output=True)
+    return compressed if compressed.exists() else audio_path
+
 # ── Transkription via Whisper API ─────────────────────────────────────────────
 def transcribe(audio_path: Path) -> str:
     print(f"  🎙️  Transkribiere...")
@@ -216,6 +228,7 @@ def main():
                 continue
 
             audio_trim = trim_audio(audio_raw)
+            audio_trim = compress_audio(audio_trim)
             transcript = transcribe(audio_trim)
             if not transcript.strip():
                 print(f"  ⚠️  Leeres Transkript, überspringe.")
