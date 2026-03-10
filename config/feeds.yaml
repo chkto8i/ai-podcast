@@ -1,13 +1,13 @@
 # AI Podcast Digest — Feed-Konfiguration
-# Hier die 7 Stammshows eintragen.
+# Hier die Stammshows eintragen.
 # Format: name + rss_url
 
 feeds:
-  - name: "Lex Fridman Podcast"
-    rss_url: "https://lexfridman.com/feed/podcast/"
+  - name: "Der KI-Unternehmer"
+    rss_url: "https://feeds.libsyn.com/323729/rss"
 
-  - name: "The TWIML AI Podcast"
-    rss_url: "https://twimlai.com/feed/podcast/"
+  - name: "AI to the DNA"
+    rss_url: "https://feeds.transistor.fm/ai-to-the-dna"
 
   - name: "KI Update Heise"
     rss_url: "https://kiupdate.podigee.io/feed/mp3"
@@ -20,6 +20,9 @@ feeds:
 
   - name: "KI-Podcast ARD"
     rss_url: "https://feeds.br.de/der-ki-podcast/feed.xml"
+    
+  - name: "Practical AI"
+    rss_url: "https://changelog.com/practicalai/feed"
 
 
 # Ausgabe-Einstellungen
