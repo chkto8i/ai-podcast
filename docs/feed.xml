@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Weekly AI Digest</title>
+    <link>https://chkto8i.github.io/ai-podcast</link>
+    <description>Wöchentlicher KI-Podcast-Digest — automatisch generiert</description>
+    <language>de</language>
+    <itunes:category text="Technology"/>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:author>AI Podcast Digest</itunes:author>
+    <image>
+      <url>https://chkto8i.github.io/ai-podcast/cover.jpg</url>
+      <title>Weekly AI Digest</title>
+      <link>https://chkto8i.github.io/ai-podcast</link>
+    </image>
+  <item>
+    <title>Weekly AI Digest – 10.03.2026</title>
+    <enclosure url="https://chkto8i.github.io/ai-podcast/episodes/Weekly_AI_Digest_2026-03-10.mp3" length="4763013" type="audio/mpeg"/>
+    <guid isPermaLink="false">Weekly_AI_Digest_2026-03-10.mp3</guid>
+    <pubDate>Tue, 10 Mar 2026 21:29:55 -0000</pubDate>
+    <itunes:duration>636</itunes:duration>
+    <description>Weekly AI Digest – 10.03.2026</description>
+  </item>
+
+  </channel>
+</rss>
