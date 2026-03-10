@@ -25,7 +25,7 @@ feeds:
 # Ausgabe-Einstellungen
 output:
   episode_title_prefix: "Weekly AI Digest"
-  max_summary_length: 300        # Zeichen pro Show-Zusammenfassung
+  max_summary_length: 3000       # Zeichen pro Show-Zusammenfassung
   tts_voice: "onyx"              # OpenAI TTS Stimme: alloy, echo, fable, onyx, nova, shimmer
   intro_pause_ms: 800            # Pause zwischen Shows in Millisekunden
   language: "de"                 # Sprache für Zusammenfassungen: de / en
