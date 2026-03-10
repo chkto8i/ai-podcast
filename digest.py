@@ -127,12 +127,14 @@ Show: {show_name}
 Folge: {episode_title}
 
 Transkript:
-{transcript[:12000]}
+{transcript[:25000]}
 
 Liefere NUR folgendes, ohne Überschriften oder Markdown:
-1. Einen Einleitungssatz (Show + Thema, max. 20 Wörter)
-2. Fünf bis sieben Key-Insights mit konkreten Zahlen, Daten und Fakten \
+1. Einen Einleitungssatz (Show + Thema, max. 40 Wörter)
+2. Drei Key-Insights als Fließtext (je 1-2 Sätze, max. {max_len} Zeichen gesamt)
+2. Fünf bis sieben Key-Insights mit konkreten Zahlen, Daten, Fakten und vor allem Beispiele mit welchen Tools welches Problem gelöst werden kann \
    (je 6-8 Sätze, Beispiele nennen, Quellen aus dem Podcast zitieren, \
+   keine allgemeinen Aussagen. \
    max. {max_len} Zeichen gesamt)
 3. Einen abschließenden Satz als Überleitung zur nächsten Show
 
@@ -140,7 +142,7 @@ Schreibe natürlich gesprochen — es wird vorgelesen."""
 
     message = anthropic.messages.create(
         model="claude-haiku-4-5",
-        max_tokens=3000,
+        max_tokens=3500,
         messages=[{"role": "user", "content": prompt}]
     )
     return message.content[0].text.strip()
