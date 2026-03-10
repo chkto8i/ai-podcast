@@ -6,23 +6,23 @@ feeds:
   - name: "Der KI-Unternehmer"
     rss_url: "https://feeds.libsyn.com/323729/rss"
 
-  - name: "AI to the DNA"
-    rss_url: "https://feeds.transistor.fm/ai-to-the-dna"
+#  - name: "AI to the DNA"
+#    rss_url: "https://feeds.transistor.fm/ai-to-the-dna"
 
-  - name: "KI Update Heise"
-    rss_url: "https://kiupdate.podigee.io/feed/mp3"
+#  - name: "KI Update Heise"
+#    rss_url: "https://kiupdate.podigee.io/feed/mp3"
 
-  - name: "Das KI-Kochbuch"
-    rss_url: "https://api.riverside.fm/hosting/SLGJyCES.rss"
+#  - name: "Das KI-Kochbuch"
+#    rss_url: "https://api.riverside.fm/hosting/SLGJyCES.rss"
 
-  - name: "KI verstehen - Deutschlandfunk"
-    rss_url: "https://www.deutschlandfunk.de/ki-verstehen-102.xml"
+#  - name: "KI verstehen - Deutschlandfunk"
+#    rss_url: "https://www.deutschlandfunk.de/ki-verstehen-102.xml"
 
-  - name: "KI-Podcast ARD"
-    rss_url: "https://feeds.br.de/der-ki-podcast/feed.xml"
+#  - name: "KI-Podcast ARD"
+#    rss_url: "https://feeds.br.de/der-ki-podcast/feed.xml"
     
-  - name: "Practical AI"
-    rss_url: "https://changelog.com/practicalai/feed"
+#  - name: "Practical AI"
+#    rss_url: "https://changelog.com/practicalai/feed"
 
 
 # Ausgabe-Einstellungen
