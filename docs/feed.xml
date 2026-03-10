@@ -10,6 +10,11 @@
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:author>AI Podcast Digest</itunes:author>
+    <itunes:owner>
+      <itunes:name>AI Podcast Digest</itunes:name>
+      <itunes:email>Tobias.Assfalg@web.de</itunes:email>
+    </itunes:owner>
+    <managingEditor>Tobias.Assfalg@web.de</managingEditor>
     <image>
       <url>https://chkto8i.github.io/ai-podcast/cover.jpg</url>
       <title>Weekly AI Digest</title>
@@ -17,12 +22,19 @@
     </image>
   <item>
     <title>Weekly AI Digest – 10.03.2026</title>
+    <enclosure url="https://chkto8i.github.io/ai-podcast/episodes/Weekly_AI_Digest_2026-03-10.mp3" length="743253" type="audio/mpeg"/>
+    <guid isPermaLink="false">Weekly_AI_Digest_2026-03-10.mp3</guid>
+    <pubDate>Tue, 10 Mar 2026 22:04:52 -0000</pubDate>
+    <itunes:duration>100</itunes:duration>
+    <description>Weekly AI Digest – 10.03.2026</description>
+  </item>
+<item>
+    <title>Weekly AI Digest – 10.03.2026</title>
     <enclosure url="https://chkto8i.github.io/ai-podcast/episodes/Weekly_AI_Digest_2026-03-10.mp3" length="4763013" type="audio/mpeg"/>
     <guid isPermaLink="false">Weekly_AI_Digest_2026-03-10.mp3</guid>
     <pubDate>Tue, 10 Mar 2026 21:29:55 -0000</pubDate>
     <itunes:duration>636</itunes:duration>
     <description>Weekly AI Digest – 10.03.2026</description>
   </item>
-
   </channel>
 </rss>
