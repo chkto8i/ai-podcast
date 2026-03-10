@@ -265,6 +265,11 @@ def update_rss_feed(mp3_filename: str, mp3_size: int, episode_title: str,
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:author>AI Podcast Digest</itunes:author>
+    <itunes:owner>
+      <itunes:name>AI Podcast Digest</itunes:name>
+      <itunes:email>Tobias.Assfalg@web.de</itunes:email>
+    </itunes:owner>
+    <managingEditor>Tobias.Assfalg@web.de</managingEditor>
     <image>
       <url>{base_url}/cover.jpg</url>
       <title>{prefix}</title>
