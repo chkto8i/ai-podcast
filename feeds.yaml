@@ -9,20 +9,18 @@ feeds:
   - name: "The TWIML AI Podcast"
     rss_url: "https://twimlai.com/feed/podcast/"
 
-  - name: "Beispiel Show 3"
-    rss_url: "https://example.com/feed3.xml"
+  - name: "KI Update Heise"
+    rss_url: "https://kiupdate.podigee.io/feed/mp3"
 
-  - name: "Beispiel Show 4"
-    rss_url: "https://example.com/feed4.xml"
+  - name: "Das KI-Kochbuch"
+    rss_url: "https://api.riverside.fm/hosting/SLGJyCES.rss"
 
-  - name: "Beispiel Show 5"
-    rss_url: "https://example.com/feed5.xml"
+  - name: "KI verstehen - Deutschlandfunk"
+    rss_url: "https://www.deutschlandfunk.de/ki-verstehen-102.xml"
 
-  - name: "Beispiel Show 6"
-    rss_url: "https://example.com/feed6.xml"
+  - name: "KI-Podcast ARD"
+    rss_url: "https://feeds.br.de/der-ki-podcast/feed.xml"
 
-  - name: "Beispiel Show 7"
-    rss_url: "https://example.com/feed7.xml"
 
 # Ausgabe-Einstellungen
 output:
