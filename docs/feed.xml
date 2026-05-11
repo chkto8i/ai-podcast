@@ -21,6 +21,14 @@
       <link>https://chkto8i.github.io/ai-podcast</link>
     </image>
   <item>
+    <title>Weekly AI Digest – 11.05.2026</title>
+    <enclosure url="https://chkto8i.github.io/ai-podcast/episodes/Weekly_AI_Digest_2026-05-11.mp3" length="627501" type="audio/mpeg"/>
+    <guid isPermaLink="false">Weekly_AI_Digest_2026-05-11.mp3</guid>
+    <pubDate>Mon, 11 May 2026 08:20:18 -0000</pubDate>
+    <itunes:duration>86</itunes:duration>
+    <description>Weekly AI Digest – 11.05.2026</description>
+  </item>
+<item>
     <title>Weekly AI Digest – 04.05.2026</title>
     <enclosure url="https://chkto8i.github.io/ai-podcast/episodes/Weekly_AI_Digest_2026-05-04.mp3" length="571437" type="audio/mpeg"/>
     <guid isPermaLink="false">Weekly_AI_Digest_2026-05-04.mp3</guid>
@@ -90,14 +98,6 @@
     <guid isPermaLink="false">Weekly_AI_Digest_2026-03-10.mp3</guid>
     <pubDate>Tue, 10 Mar 2026 22:04:52 -0000</pubDate>
     <itunes:duration>100</itunes:duration>
-    <description>Weekly AI Digest – 10.03.2026</description>
-  </item>
-<item>
-    <title>Weekly AI Digest – 10.03.2026</title>
-    <enclosure url="https://chkto8i.github.io/ai-podcast/episodes/Weekly_AI_Digest_2026-03-10.mp3" length="4763013" type="audio/mpeg"/>
-    <guid isPermaLink="false">Weekly_AI_Digest_2026-03-10.mp3</guid>
-    <pubDate>Tue, 10 Mar 2026 21:29:55 -0000</pubDate>
-    <itunes:duration>636</itunes:duration>
     <description>Weekly AI Digest – 10.03.2026</description>
   </item>
   </channel>
